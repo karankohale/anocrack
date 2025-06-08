@@ -52,7 +52,9 @@ This will generate an executable file named anocrack.
 
 🚀 How to Use
 Run the tool using the following syntax:
-```./anocrack```
+```bash
+./anocrack
+```
 
 You can use any wordlist, but rockyou.txt is a popular default, located at:
 ```
