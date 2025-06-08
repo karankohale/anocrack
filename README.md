@@ -13,7 +13,8 @@ Anocrack is a lightweight and fast C-based command-line tool designed for **dict
 ## 📦 Features
 
 - ✅ Written entirely in C (no dependencies)
-- ✅ Supports ZIP password cracking using a wordlist
+- ✅ Supports Hash and ZIP password cracking using a wordlist
+- ✅ Can generate custom wordlists
 - ✅ Easy to compile and use
 - ✅ Perfect for CTFs and training labs
 - ✅ Built and tested on Kali Linux
