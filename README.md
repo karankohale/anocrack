@@ -57,8 +57,8 @@ Run the tool using the following syntax:
 You can use any wordlist, but rockyou.txt is a popular default, located at:
 ```
 /usr/share/wordlists/rockyou.txt
-If not found, install it using:
 ```
+If not found, install it using:
 
 ```bash
 sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
@@ -66,7 +66,6 @@ sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
 📌 Output
 If a password match is found, it will display:
 ```
-
 Password found: <matched-password>
 Otherwise, it will print:
 ```
