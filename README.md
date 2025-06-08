@@ -29,8 +29,9 @@ You can get the source code in two ways:
 ```bash
 git clone https://github.com/karankohale/anocrack.git
 cd anocrack
+```
 
-🔹 Option 2: Download as ZIP
+### 🔹 Option 2: Download as ZIP
 Click the green "Code" button at the top of this page.
 
 Select "Download ZIP".
@@ -42,45 +43,48 @@ Open the folder named anocrack-main (or similar).
 ⚙️ How to Compile
 Open your terminal in the directory where anocrack.c is located, then run:
 
-bash
+```bash
 Copy
 Edit
 gcc anocrack.c -o anocrack
+```
 This will generate an executable file named anocrack.
 
 🔧 Requirement: GCC must be installed (already available in Kali Linux by default).
 
 🚀 How to Use
 Run the tool using the following syntax:
-./anocrack
+```./anocrack```
 
 You can use any wordlist, but rockyou.txt is a popular default, located at:
-
+```
 swift
 Copy
 Edit
 /usr/share/wordlists/rockyou.txt
 If not found, install it using:
+```
 
-bash
+```bash
 Copy
 Edit
 sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
-
+```
 📌 Output
 If a password match is found, it will display:
-
+```
 pgsql
 Copy
 Edit
 Password found: <matched-password>
 Otherwise, it will print:
-
+```
+```
 pgsql
 Copy
 Edit
 Password not found in the provided wordlist.
-
+```
 ⚠️ Disclaimer
 This tool is intended for educational and authorized penetration testing only.
 
