@@ -70,28 +70,36 @@ sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
 If a password match is found, it will display:
 ```
 Password found: <matched-password>
-Otherwise, it will print:
 ```
+Otherwise, it will print:
 ```
 Password not found in the provided wordlist.
 ```
+---
 ⚠️ Disclaimer
 This tool is intended for educational and authorized penetration testing only.
 
 🚫 Do NOT use this tool on files, devices, or systems you don’t own or don’t have explicit permission to test.
 
 ❗ The creator is not responsible for any misuse or illegal activity.
+---
 
+---
 👨‍💻 Author
 Made by Karan Kohale
 🎯 Cybersecurity Engineer | Ethical Hacker | Red Teamer
+---
 
+---
 🪪 License
 This project is licensed under the MIT License
+---
 
+---
 ⭐ Support This Project
 If you found this tool useful:
 
 Give the repo a ⭐ star
 
 Share it with other cybersecurity learners
+---
