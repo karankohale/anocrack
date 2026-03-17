@@ -45,7 +45,7 @@ Open the folder named anocrack-main (or similar).
 Open your terminal in the directory where anocrack.c is located, then run:
 
 ```bash
-gcc anocrack.c -o anocrack
+gcc anocrack.c -o anocrack -lm
 ```
 This will generate an executable file named anocrack.
 
